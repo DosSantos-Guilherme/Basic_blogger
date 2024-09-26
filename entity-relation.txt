@@ -1,0 +1,63 @@
++----------------+       +----------------+       +----------------+
+|     User       |       |    BlogPost    |       |    Comment     |
++----------------+       +----------------+       +----------------+
+| UserID (PK)    |<----->| PostID (PK)    |<----->| CommentID (PK) |
+| Username       |       | Title          |       | Content        |
+| Password       |       | Content        |       | PostID (FK)    |
+| Role           |       | UserID (FK)    |       | UserID (FK)    |
++----------------+       | CreatedAt      |       | CreatedAt      |
+                         +----------------+       +----------------+
+                               ^
+                               |
+                               |
+                         +----------------+
+                         |    Progress    |
+                         +----------------+
+                         | ProgressID (PK)|
+                         | UserID (FK)    |
+                         | PostID (FK)    |
+                         | Feedback       |
+                         | CreatedAt      |
+                         +----------------+
+
++----------------+       +----------------+
+|    Student     |       |    Teacher     |
++----------------+       +----------------+
+| UserID (PK, FK)|       | UserID (PK, FK)|
+| GradeLevel     |       | Subject        |
++----------------+       +----------------+
+1.User
+UserID (Primary Key)
+Username
+Password
+Role (either ‘Student’ or ‘Teacher’)
+2.Student
+UserID (Primary Key, Foreign Key to User)
+GradeLevel
+3.Teacher
+UserID (Primary Key, Foreign Key to User)
+Subject
+4.BlogPost
+PostID (Primary Key)
+Title
+5.Content
+UserID (Foreign Key to User)
+CreatedAt
+5.Comment
+CommentID (Primary Key)
+Content
+PostID (Foreign Key to BlogPost)
+UserID (Foreign Key to User)
+CreatedAt
+6.Progress
+ProgressID (Primary Key)
+UserID (Foreign Key to User)
+PostID (Foreign Key to BlogPost)
+Feedback
+CreatedAt
+Relationships
+A User can be either a Student or a Teacher.
+A User can create multiple BlogPosts.
+A BlogPost can have multiple Comments.
+A User can comment on multiple BlogPosts.
+A Teacher can track the Progress of multiple Students through their BlogPosts.

@@ -1,0 +1,85 @@
+### **Backlog for Blogging Website**
+
+#### **User Stories**
+
+1. **User Registration and Authentication**
+   - **As a student**, I want to register and create a profile so that I can start blogging.
+   - **As a teacher**, I want to register and create a profile so that I can manage my students' blogs.
+   - **As a user**, I want to log in and log out securely so that my data is protected.
+
+2. **User Roles and Permissions**
+   - **As an admin**, I want to assign roles (student or teacher) to users so that they have appropriate access.
+   - **As a teacher**, I want to manage permissions for my students so that I can control what they can do on the platform.
+
+3. **Blog Creation and Management**
+   - **As a student**, I want to create, edit, and delete blog posts so that I can share my thoughts and progress.
+   - **As a teacher**, I want to create, edit, and delete blog posts so that I can share resources and updates with my students.
+   - **As a user**, I want to categorize my blog posts so that they are organized and easy to find.
+
+4. **Rich Text Editor**
+   - **As a user**, I want an easy-to-use editor with formatting options (bold, italics, lists, etc.) so that I can create visually appealing blog posts.
+   - **As a user**, I want to add images and videos to my blog posts so that I can make them more engaging.
+
+5. **Student Development Tracking**
+   - **As a teacher**, I want to track my students' blog activity and progress so that I can monitor their development.
+   - **As a student**, I want to see my progress and feedback from my teacher so that I can improve my blogging skills.
+
+6. **Commenting System**
+   - **As a user**, I want to comment on blog posts so that I can engage with the content and other users.
+   - **As a teacher**, I want to moderate comments on my students' posts so that the discussion remains constructive.
+
+7. **Notifications**
+   - **As a user**, I want to receive notifications for new comments, posts, and feedback so that I stay updated.
+
+8. **Search and Filter**
+   - **As a user**, I want to search and filter blog posts by category, author, and date so that I can find relevant content easily.
+
+9. **User Profile Management**
+   - **As a user**, I want to update my profile information so that it reflects my current details.
+
+10. **Dashboard**
+    - **As a teacher**, I want a dashboard to view overall student activity and performance so that I can get insights at a glance.
+    - **As a student**, I want a dashboard to view my own activity and progress so that I can track my development.
+
+#### **Technical Tasks**
+
+1. **Set Up Database**
+   - Design and implement the database schema to support user roles, blog posts, comments, and tracking data.
+
+2. **Develop User Authentication**
+   - Implement secure user registration, login, and role assignment.
+
+3. **Build Rich Text Editor**
+   - Integrate a rich text editor with support for text formatting, images, and videos.
+
+4. **Implement Blog Management**
+   - Develop CRUD (Create, Read, Update, Delete) operations for blog posts.
+
+5. **Create Commenting System**
+   - Develop a commenting system with moderation capabilities.
+
+6. **Develop Notification System**
+   - Implement real-time notifications for user activities.
+
+7. **Build Search and Filter Functionality**
+   - Implement search and filter features for blog posts.
+
+8. **Develop User Profiles**
+   - Create user profile management features.
+
+9. **Create Dashboards**
+   - Develop dashboards for students and teachers to track activity and progress.
+
+10. **Testing and QA**
+    - Conduct thorough testing to ensure all features work as expected and fix any bugs.
+
+This backlog should give you a solid foundation to start developing your blogging website. If you have any specific requirements or additional features in mind, feel free to let me know!
+
+Fonte: conversa com o Copilot, 9/25/2024
+(1) 5 Easy Steps to Create a Product Backlog - Scrum.org. https://www.scrum.org/resources/blog/5-easy-steps-create-product-backlog.
+(2) Best Blogging Platforms for Students. https://bloggingguide.com/best-blogging-platforms-for-students/.
+(3) The Product Backlog: How to Build and Prioritize It - Toptal. https://www.toptal.com/product-managers/agile/product-backlog-step-by-step-guide.
+(4) Top 7 Free Blog Websites for Students | Future Education Magazine. https://futureeducationmagazine.com/top-free-blog-websites-for-students/.
+(5) 5 Best Blogging Platforms for Creative Students. https://news.elearninginside.com/5-best-blogging-platforms-for-creative-students/.
+(6) 7 Best Free Blogging Platforms (September 2024) - Forbes. https://www.forbes.com/advisor/business/software/best-free-blogging-platform/.
+(7) 11 Best Blogging Platforms to Make Money (Free and Paid Sites). https://createandgo.com/best-blogging-platforms.
